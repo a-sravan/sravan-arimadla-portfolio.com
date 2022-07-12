@@ -1,0 +1,1418 @@
+
+
+<html>
+    <head>
+        <title>Portfolio of Sravan</title>
+        <!-- <link rel="stylesheet" href="css.css"> -->
+        <link rel="icon" href="https://d1.awsstatic.com/events/aws-hosted-events/2019/UKIR/cube1.c8711adf2907f2118d07f6bc4d53b6c79504e5f6.png">
+        <style>
+                                *{
+                        margin:0px;
+                        padding: 0px;
+
+                    }
+                    .header{
+                        height: 70px;
+                        width: 100%;
+                        background-color: #A29363;
+                        display: flex;
+                        justify-content: center;
+                        position: fixed;
+                    }
+                    .container{
+                        width: 90%;
+                        background-color: rgb(60, 61, 62);
+                        display: flex;
+                        padding-right: 25px;
+                        padding-left: 20px;
+                    }
+                    .logo{
+                        height: 70px;
+                        width: 35%;
+                        /* background-color: rgb(221, 192, 27); */
+                        font-size: 25px;
+                        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                        color: #A29363;
+                        text-align: center;
+                        font-weight: bold;
+                        line-height: 70px;
+                    }
+                    .profile{
+                        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                        color: #A29363;
+                    }
+                    .nav{
+                        height: 70px;
+                        width: 35%;
+                        /* background-color: rgb(50, 94, 60); */
+                        display: flex;
+                    }
+                    .header_container{
+                        justify-content: space-between;
+                    }
+
+                    .nav-item{
+                        width: 24%;
+                        height: 70px;
+                        color: #A29363;
+
+                        background-color: #3d3d3ded;
+                        /* font-size: 18px; */
+                        font-family: 'Times New Roman', Times, serif;
+                        text-align: center;
+                        line-height: 70px;
+                        cursor: pointer;
+                        transition: 0.6s;
+                    }
+                    .nav-item:hover{
+                        background-color: #A29363;
+                        color: rgb(4, 4, 4);
+                        line-height: 60px;
+                    }
+
+
+                    .tt1{
+                        margin-left: 10px;
+                    }
+
+                    .banner{
+                        
+                        height: 85%;
+                        width: 100%;
+                        background-color: #3d3d3ded;
+                        overflow: hidden;
+                        display: flex;
+                        justify-content: center;
+                        background-repeat:no-repeat;
+                        align-items: center;
+                        /* background-image: url("https://media.istockphoto.com/photos/modern-computerlaptop-with-blank-screen-on-counter-barand-window-view-picture-id1157789866?b=1&k=20&m=1157789866&s=170667a&w=0&h=XDdkkxtHlghnmrdl8NGE_GlRcPlOFLJkAlZa8N4E5Jg="); */
+                    }
+                    .overlay{
+                        height:100%;
+                        width: 100%;
+                        background-color: rgba(255, 255, 255, 0.507);
+                        
+                        display: flex;
+                        align-items: center;
+                    }
+
+                    /* <!-- //////////////////////////////////CURRENTLY WORKING ON //////////////////////////////////////////// --> */
+
+
+                    .status{
+                    background-color: rgb(3, 2, 2);
+                    width: 80%;
+                    margin-top: 30px;
+                    height: 300px;
+                    border-bottom-left-radius: 20px;
+                        border-bottom-right-radius: 20px;
+                        border-top-left-radius: 20px;
+                        border-top-right-radius: 20px;
+                    }
+                    .head2{
+                    margin-left: 20px;
+                    margin-top: 30px;
+                    /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+                    color: #A29363;
+                    }
+                    .headin{
+                    color:  #A29363;
+                    margin-left: 40px;
+                    }
+
+                    .status_but{
+                    display: block;
+                    border: 1px;
+                    font-size: 16px;
+                    line-height: 1;
+                    padding: 16px 30px;
+                    border-radius: 30px;
+                    background-color: #A29363;
+                    color: rgb(255, 255, 255);
+                    cursor: pointer;
+                    width:120px;
+                    margin-left: 400px;
+                    }
+                    .status_but:hover{
+
+                    background-color: rgb(15, 15, 15);
+                    transition: .5s;
+                    }
+                    .h2{
+                    margin-left: 20px;
+                    margin-top: 10px;
+                    /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+                    color:  #A29363;
+                    }
+                    .descr{
+                    color:  #A29363;
+                    font-size: 14px;
+                    }
+
+                    /* //////////////////////////////////////////status css///////////////////////////////////////////////////// */
+                    .bantext{
+                        height: 50%;
+                        width: 55%;
+                        background-color: #3d3d3ded;
+                        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                        display: flex;
+                        align-items: center;
+                        margin-left: 60px;
+                    }
+                    .padd{
+                        padding :20px;
+
+                    }
+
+                    .dum{
+                        display: flex;
+                        color: white;
+                        align-items:flex-start;
+                        font-size: 20px;
+                        font-style:oblique;
+                        margin-right: 20px;
+                        font-weight: bold;
+                        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    }
+                    .pass{
+                        height:45%;
+                        width:25%;
+                        /* background-color: black; */
+                        margin-left: 40px;
+                        /* background-image: url('./pass.jpg'); */
+                        margin-bottom: 80px;
+
+                    }
+
+                    .bnr_bt{
+                        padding-left: 5px;
+                        padding-right: 5px;
+                        padding-top: 5px;
+                        padding-bottom: 5px;
+                        text-transform: uppercase;
+                        background-color: #A29363;
+                        /* font-weight: bold; */
+                        cursor: pointer;
+                        margin-left:380px;
+                    
+                    }
+
+                    .bnr_bt:hover{
+                    background-color: #A29363;
+                    color: #A29363;
+                    transition: 1s;
+                    }
+
+                    .services{
+                        padding-top: 50px;
+                        padding-bottom: 50px; 
+                        /* background-image: url("https://github.com/A-Sravan/Personal_Webpage/blob/main/bg3.gif?raw=true"); */
+                        background-color: #3d3d3ded;
+                        display: flex;
+                        align-items: center;
+                        flex-direction: column;
+                        
+                        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    }
+                    .var_cont{
+                        margin-top: 40px;
+                        /* margin-bottom: 40px; */
+                        flex-wrap: wrap;
+                    justify-content:center;
+                    }
+
+
+                    .child{
+                        display:block;
+                        border:30px;
+                        border-radius: 30px;
+                        height: 500px;
+                        width: 100%;
+                        background-color: #fffffffa;
+                        align-self:center;
+                        margin-left:5px ;
+                        margin-top: 25px;
+                        display: flex;
+                        /* flex-direction: column; */
+                        margin-bottom: 40px;
+                        
+                        
+                    }
+                    .ptitle{
+                        background-color: rgb(93, 91, 91);
+                    }
+                    .child_img{
+
+                        height:100%;
+                        width:40%;
+                        background-color:#a5a5a5;
+                        display: flex;
+                        border-radius: 20px;
+                        overflow: hidden;
+                    }
+                    .child_det{
+                        height:300px;
+                        width:60%;
+                        /* background-color: rgb(34, 177, 77); */
+                    
+                    }
+                    .justpad{
+                        padding :20px;
+                        
+                    }
+
+                    .btn_edit{
+                        padding-left: 10px;
+                        padding-right: 10px;
+                        padding-top: 5px;
+                        padding-bottom: 5px;
+                        text-transform: uppercase;
+                        background-color:#A29363;
+                        /* font-weight: bold; */
+                        cursor: pointer;
+                    }
+                    .pr_head{
+                        display: flex; 
+                        font-family: 'Times New Roman', Times, serif;
+                        font-size: 25px;
+                        margin-top: 50px;
+                        margin-left: 20px;
+                    }
+                    .temp{
+                        margin-left: 10px;
+                        margin-top: 10px;
+                    }
+                    .btn_group{
+
+                        display: flex;
+                        margin-top: 20px;
+                        justify-content:space-between;
+                    }
+                    .pbt{
+                        display: block;
+                        border: 1px;
+                        font-size: 16px;
+                        line-height: 1;
+                        padding: 16px 30px;
+                        border-radius: 30px;
+                        background-color: #A29363;
+                        
+                        color: white;
+                        cursor: pointer;
+                        
+                    }
+                    .pbt:hover{
+
+                        background-color: rgb(0, 0, 0);
+                        transition: .5s;
+                    }
+                    .heading2{
+                    color: white;
+                    }
+                    .btn_edit:hover{
+                        background-color: #A29363;
+                        color: white;
+                        transition: 1s;
+                    }
+                    .webhead{
+                        margin-bottom: 15px;
+                        font-style: italic;
+                        font-size: 30px;
+                        color:rgb(139, 8, 14)
+                    }
+                    .desc{
+                        margin-bottom: 15px;
+                    }
+
+
+                    .group{
+                        display: flex;
+                        align-items: center;
+                        margin-left: 250px;
+                        margin-top: 30px;
+                        margin-bottom: 30px;
+                        flex-direction: column;
+                    }
+                    .head2{
+                        margin-bottom: 30px;
+                    }
+
+                    .about{
+                    padding-top: 50px;
+                    padding-bottom: 50px;
+                    background-color: #e7fff7;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+                    }
+
+                    .about_container{
+
+                        margin-top: 30px;
+                    }
+
+                    .highlight{
+                        padding-top: 50px;
+                        padding-bottom: 50px;
+                        width: 100%; 
+                        /* background-image: url(./bg3.gif); */
+                        display: flex;
+                        justify-content: center;
+                    }
+
+
+                    .high_container
+                    {
+
+                        justify-content: space-between;
+
+
+                    }
+                    .high_ele{
+
+                        width: 22%;
+                        height:200px;
+                        background-color: rgba(0,0,0,0.3);
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                        text-align: center;
+                        color: white;
+                    }
+                    
+                    .h1_css
+                    {
+                        font-size: 50px ;
+                    }
+
+                    .high_desc{
+                        font-size: 20px;
+                    }
+
+                    .quote
+                    {
+                        padding-top: 50px;
+                        padding-bottom: 50px;
+                        display: flex;
+                        justify-content: center;
+                        /* background-color: rgb(65, 58, 104);; */
+
+                    }
+
+                    .quote_container{
+                    display: flex;
+                        align-items: center;
+                        flex-direction: column;
+                        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+                    }
+
+                    .quote_head{
+                        margin-bottom: 20px;
+                    }
+
+                    .quote_btn{
+                        padding-left: 10px;
+                        padding-right: 10px;
+                        padding-top: 5px;
+                        padding-bottom: 5px;
+                        text-transform: uppercase;
+                        background-color: rgb(20, 20, 21);
+                        /* font-weight: bold; */
+                        cursor: pointer
+
+                    }
+
+                    .quote_btn:hover{
+                    
+                            background-color: rgb(10, 11, 15);
+                            color: rgb(91, 212, 75);
+                            transition: 1s;
+                        
+                    }
+
+                    .portfolio{
+                        padding-bottom: 50px;
+                        padding-top: 50px;
+                        background-color: gray;
+                        width:100%;
+                        display:flex;
+                        flex-direction: column;
+                        align-items: center;
+                    }
+
+                    .port_container{
+                        flex-wrap: wrap;
+                        margin-top: 40px;
+                    }
+
+
+                    .projects{
+                        width:25%;
+                        height:250px;
+                        background-color: greenyellow;
+                        display: flex;
+                    
+                    }
+
+                    .project1{
+
+                        background-image: url('https://bikerestart.com/wp-content/uploads/2021/01/Engine-Fins.jpg');
+                        background-size: cover;
+                    }
+
+
+                    .project2{
+
+                        background-image: url('https://images.pexels.com/photos/1000445/pexels-photo-1000445.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500');
+                        background-size: cover;
+                        align-items: flex-end;
+                    }
+
+
+                    .project3{
+
+                        background-image: url('https://images.pexels.com/photos/607812/pexels-photo-607812.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500');
+                        background-size: cover;
+                    }
+
+
+                    .project4{
+
+                        background-image: url('https://images.pexels.com/photos/3800517/pexels-photo-3800517.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500');
+                        background-size: cover;
+                        align-items: flex-end;
+                    }
+
+                    .project5{
+
+                        background-image: url('https://images.pexels.com/photos/4526481/pexels-photo-4526481.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500');
+                        background-size: cover;
+                    }
+
+
+                    .project6{
+
+                        background-image: url('https://images.pexels.com/photos/1337753/pexels-photo-1337753.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500');
+                        background-size: cover;
+                        align-items: flex-end;
+                    }
+
+
+                    .project7{
+
+                        background-image: url('https://res.cloudinary.com/jerrick/image/upload/v1519848167/zf5vxwzgw4bqobpeloy9.jpg');
+                        background-size: cover;
+                    }
+
+
+                    .project8{
+
+                        background-image: url('https://mongooseagency.com/files/3415/9620/1413/Return_of_Sports.jpg');
+                        background-size: cover;
+                        align-items: flex-end;
+                    }
+
+                    .project_edit{
+
+                        color: white;
+                        width:100%;
+                        height:150px;
+                        text-indent: 30px;
+                        line-height: 150px;
+                        background-color: rgba(13, 14, 15, 0.907);
+                        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                        /* font-size: 15px; */
+                        cursor: pointer;
+                        transition: .4s;
+                    }
+                    .project_edit:hover{
+
+                    height:250px;
+                    }
+
+
+
+                    /* css for footer */
+
+                    .footer{
+
+                    padding-top: 50px;
+                    padding-bottom: 50px;
+                    background-color: #434144;
+                    display: flex;
+                    justify-content: center;
+
+                    }
+
+                    .footer_child{
+
+                        width:25%;
+                        height:250px;
+                        /* background-color: brown; */
+                        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                    .child1{
+
+
+                        font-family: 'Times New Roman', Times, serif;
+                        color:white;
+                        font-size: 20px;
+                    
+                    }
+                    li{
+                        list-style-type: disc;
+                        color: white;
+                    }
+                    ul{
+                        margin-top: 20px;
+                    }
+
+                    .first{
+                        font-size: 20px;
+                        margin-bottom: 10px;
+                        font-weight: bold;
+                    }
+                    .f4{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+
+                    .last_container{
+                        width:90%;
+                        justify-content: space-between;
+                        
+                    }
+                    .logoss{
+
+                    height:50px;
+                    width:50px;
+                    /* background-color: white; */
+                    background-size: cover;
+
+                    }
+                    .si1{
+                        background-image: url(./face.png);
+                        cursor: pointer;
+                        
+                    }
+
+                    .si2{
+                        background-image: url(./gmail.png);
+                    }
+                    .si3{
+                        background-image: url(./insta.png);
+                    }
+                    .si4{
+                        background-image: url(./link.png);
+                    }
+
+
+                    
+                    .project_edit2{
+
+                        color: rgb(14, 1, 1);
+                        width:100%;
+                        height:50px;
+                        text-indent: 30px;
+                        line-height: 50px;
+                        background-color: #A29363;
+                        font-family: 'Segoe UI';
+                        font-size: 10px;
+                        cursor: pointer;
+                        transition: .4s;
+                    }
+                    .project_edit2:hover{
+
+                    height:250px;
+                    }
+                    
+                    .photo_desc{
+
+                        align-items:center;
+                        margin-left: 10%;
+                        margin-right: 10%;
+                        font-size: 13px;
+                        font-weight: bold;
+                        font-style: italic;
+                        overflow: hidden;
+                        color: black;
+                    }
+
+
+                    /* //////////////////CSSS FOR INTERNSHIPS//////////////////////////////////////////////////////// */
+
+
+                    .servicesof{
+                    padding-top: 50px;
+                    padding-bottom: 50px;
+                    /* background-image:url("https://github.com/A-Sravan/Personal_Webpage/blob/main/bg3.gif?raw=true"); */
+                    background-color: #3d3d3ded;
+                    
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    
+                    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    }
+                    .var_of{
+                    margin-top: 40px;
+                    /* margin-bottom: 40px; */
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                    }
+
+
+                    .children{
+                    height: 300px;
+                    width: 48%;
+                    color:white;
+                    background-color: rgb(54, 54, 57);
+                    /* align-self: flex-start; */
+                    margin-left:15px ;
+                    margin-top: 25px;
+                    display: flex;
+                    margin-bottom: 40px;
+                    
+                    
+                    }
+                    .children_img{
+
+                    height:300px;
+                    width:40%;
+                    /* background-color: red; */
+                    display: flex;
+                    overflow: hidden;
+                    /* margin-right: 80px; */
+                    margin-top: 0px;
+                    margin-bottom: 0px ;
+                    
+                    }
+
+                    .iot{
+                    margin-bottom: 0px;
+                    /* background-color: rgb(5, 5, 71); */
+                    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjsWFxMNskzR2SbSNeEi6F17RyYy7Sn0ltbYQm5fhP87KOpxMOFn1gYIlJ3tHiEG8CvjI&usqp=CAU");
+                    
+                
+                    }
+                    .children_det{
+                    height:300px;
+                    width:60%;
+                    background-color: #666666dc;
+
+                    }
+                    .just{
+                    padding :20px;
+                    
+                    }
+
+                    .butn_edit{
+                    display: block;
+                        border: 1px;
+                        font-size: 12px;
+                        line-height: 1;
+                        padding: 12px 22px;
+                        border-radius: 22px;
+                        background-color: rgba(0, 0, 0, 0.656);
+                        color: white;
+                        cursor: pointer;
+                        align-items: center;
+                        margin-left: 40px;
+                        margin-right: 100px;
+                        
+                    }
+
+                    .butn_edit:hover{
+                    background-color: #A29363;
+                    transition: .5s;
+                    }
+                    .web{
+                        margin-bottom: 15px;
+                        font-size: 20px;
+                    }
+                    .descdren{
+                    margin-bottom: 15px;
+                    }
+                    .heading{
+                    font-family:Georgia, 'Times New Roman', Times, serif;
+                    }
+                    /* .groupdren{
+                        display: flex;
+                        align-items: center;
+                        margin-left: 250px;
+                        margin-top: 30px;
+                        margin-bottom: 30px;
+                        flex-direction: column;
+                    }
+                    .head2{
+                        margin-bottom: 30px;
+                    } */
+
+                    .scp{
+                    margin-top: 20px;
+                    }
+
+                    .campus{
+
+                    display: flex;
+                    align-items: center;
+                    margin-left: 300px;
+                    }
+                    .verify{
+                        display: flex;
+                        
+                    }
+                   .microsoft{
+                       width: 60%;
+                    margin-left: 150px;
+                    padding-left: 50px;
+                    margin-top: -35px;
+                    
+                   }
+
+                   .aws{
+                       padding-left: 60px;
+                       margin-top: 60px;
+                   }
+                   .google{
+                       padding-left: 60px;
+                       margin-top: 20px;
+                   }
+                   .workshop{
+                    padding-left: 60px;
+                       margin-top: 20px;
+                   }
+        </style>
+    </head>
+    <body>
+          <div class="header" id="header"> 
+             <div class="container header_container">
+                <div class="logo">
+                    <pre class="heading">SRAVAN ARIMADLA's  - Personal Portfolio</pre>
+                    
+                </div>
+                <!-- <h6>Academic profile</h6> -->
+                <div class="nav">
+                    <a target="blank" style="text-decoration:none" href="https://drive.google.com/file/d/1uOWJoP6fgi0f8vc9yjelk12D7eN3bIdr/view?usp=sharing"class="nav-item">Resume </a>
+                    <a target="blank" style="text-decoration:none"  href="https://drive.google.com/drive/folders/1SupNA-TQigTuxAPW7XW-ePHzdId7QEi-?usp=sharing" class="nav-item">PPT's</a>
+                     <a target="blank" style="text-decoration:none" href="https://drive.google.com/drive/folders/1AxjzVpkJQzpupzYOwi9c8zSKs2BezRCP?usp=sharing" class="nav-item">Abstracts  </a>
+                    
+                    <a target="blank" style="text-decoration:none" href="https://drive.google.com/drive/folders/1oHp9jZpVwr_QOAvktXbi4h6Tg0RrqWbG?usp=sharing"  class="nav-item"> Certifications </a>
+                    <a target="blank" style="text-decoration:none" href="Accom.html" class="nav-item tt1">achievements</a>
+                </div>
+             </div>
+          </div>
+          <!-- header end -->
+          <!-- banner stat -->
+          <div class="banner"> 
+
+              <div class="overlay">
+                              <!-- <img src="https://images.pexels.com/photos/1097930/pexels-photo-1097930.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"/> -->
+                 <div class="bantext">
+                     <div class="padd">
+                         <h1 class="profile"> PROFILE :</h1>
+                         <pre class="dum">
+                            NAME :                       SRAVAN ARIMADLA
+                            QUALIFICATION :     B.TECH IN Mechanical
+                                                             
+                            COLLEGE :              Kakatiya Institute Of Technology 
+                                                           and Science, Warangal.
+                            Roll.No :                 B19ME190L
+                         </pre>
+                         <!-- <p>
+                             <button class="bnr_bt"> Start Working</button>
+                         </p> -->
+
+                     </div>
+
+                 </div>
+                 <div class="pass">
+                     <img src="https://github.com/A-Sravan/Personal_Webpage/blob/main/photo.jpeg?raw=true" width="250px"; height="300px"/>
+                     
+                    </div>
+              </div>
+          </div>
+
+          <!-- banner end -->
+        <!-- //////////////////////////////////CURRENTLY WORKING ON //////////////////////////////////////////// -->
+
+<div class="services">
+
+    <h1>CURRENTLY WORKING ON</h1>
+    <div class="status">
+
+        <pre><h2 class="head2">PROJECT NAME : <P class="headin">Design Store</P>  </h2></pre>
+
+        <pre><h2 class="h2">PROJECT DESCRIPTION :</h2></pre>
+        <pre class="descr">
+         Aim of the this project is to develop a store where we can sell our products such as design project files made by using
+         advanced mecanical designing softwares such as CATIA, Fusion360, Solidworks etc...
+            
+        </pre>
+
+
+        <a style="text-decoration:none" href="https://arimadlasravan.wixsite.com/design-by-sravan" <button class="status_but">PROJECT URL</button> </a>
+
+
+    </div>
+
+   
+
+</div>
+
+
+
+
+
+
+
+
+
+
+<!-- //////////////////////////////////CURRENTLY WORKING ON //////////////////////////////////////////// -->
+
+ 
+<!--------------------------------------------------- Professional Certifications ---------------------------------------------------------->
+
+
+<div class="servicesof">
+    <h1 class="heading2">CERTIFICATIONS</h1>
+    <div class="container var_of">
+       
+          <div class="children">
+              <div class="children_img   scp">
+                  <img src="https://images.credly.com/images/be8fcaeb-c769-4858-b567-ffaaa73ce8cf/image.png" width="260px"; height="260px";/>
+
+              </div>
+              <div class="children_det">
+                  <div class="just">
+                     <h1 class="web">MICROSOFT AZ-900 </h1>
+                     <p class="descdren">I am a microsoft certified member in the specialization of cloud Azure fundamentals AZ-900.The syllabus for the AZ-900 exam mainly focuses on foundational concepts of cloud-based services with respect to Azure.  It includes core azure services like compute, storage, and networking. This also covers security and privacy services, the azure support model, and pricing.</p>
+                     <p class="verify">
+                        <a target="blank" style="text-decoration:none" href="https://drive.google.com/file/d/16KK4iRqpOvIaYmscbETxVUelyW0rv7u_/view?usp=sharing"  <button class="butn_edit">OPEN CERTIFICATE</button></a>
+                        <p class="microsoft">
+                             <a target="blank" style="text-decoration:none" href="https://www.credly.com/badges/8ae06d7b-134c-4f2c-81f8-28dfad3a8447/public_url"  <button class="butn_edit">VERIFY</button></a>
+                        </p>
+                     </p>
+                  </div>
+              </div>
+
+           </div>
+    
+       
+      <!-- firdt sevice ended -->
+
+      <div class="children">
+        <div class="children_img">
+            <img src="https://d1.awsstatic.com/training-and-certification/certification-badges/AWS-Certified-Cloud-Practitioner_badge.634f8a21af2e0e956ed8905a72366146ba22b74c.png" width="260px"; height="280";/>
+
+        </div>
+        <div class="children_det">
+            <div class="just">
+               <h1 class="web">AWS CLOUD COMPUTING</h1>
+               <p class="descdren">This is a basic fundamental cloud course.The syllabus for the cloud practitioner exam mainly focuses on foundational concepts of cloud-based service which consist of basic cloud services such as  S3, EC2, AWS Lambda, ELB, SNS, Route 53, RDS, etc.  </p>
+               <p class="aws">
+                <a target="blank" style="text-decoration:none" href="https://drive.google.com/file/d/1h6iOGLWwB0vX1dmYgBx_AJfTkXs6tZSr/view?usp=sharing"  <button class="butn_edit">OPEN CERTIFICATE</button></a>
+               </p>
+            </div>
+        </div>
+
+     </div>
+
+           
+       <!-- /////////////////////////////////////////////////////////////////////////// -->
+
+       
+       <div class="children">
+        <div class="children_img iot">
+            <img src="https://image4.slideserve.com/8258961/why-google-cloud-platform-why-google-cloud-6-l.jpg" width="280px"; height="325px";/>
+
+        </div>
+        <div class="children_det">
+            <div class="just">
+               <h1 class="web">INTRODUCTION TO GOOGLE CLOUD</h1>
+               <p class="descdren">It is a basic course of google cloud by Coursera platform which mainly focuses on the basics of cloud computing technology introduction.Itconsists of a set of physical assets, such as computers and hard disk drives, and virtual resources, such as virtual machines (VMs), that are contained in Google's data centers around the globe
+                 <p class="google">   
+                <a target="blank" style="https://drive.google.com/file/d/1ApeqafJ0anFxRCCSIe62j-lHNx8MTxli/view?usp=sharing"  <button class="butn_edit">OPEN CERTIFICATE</button></a>
+                </p>
+               </p>
+            </div>
+        </div>
+
+     </div>
+  
+
+
+
+     
+
+           <!-- ////////////////////////////////////////////////////////////////////////////// -->
+
+           <div class="children">
+            <div class="children_img">
+                <img src="https://pbs.twimg.com/profile_images/1424970409439416321/6--q97ve_400x400.jpg" width="250px"; height="350px";/>
+
+            </div>
+            <div class="children_det">
+                <div class="just">
+                   <h1 class="web">WORKSHOP ON AWS </h1>
+                   <p class="descdren">A 16-hours AWS practical training that covers the core explanation of cloud computing |AWS introduction |EC2 service | S3 storage | IAM and role of IAM | Dynamo DB | VPC | Integration of API gateway with AWS Lamda serverless framework | Public and private ports | SSH commands |Static website hosting using S3 bucket
+                   
+                    </p>
+                   <p class="workshop">
+                    <a target="blank" style="text-decoration:none" href="https://drive.google.com/file/d/1nXIZmjYnx5tLAAm8SC9hglGLC_ynKjRt/view?usp=sharing" <button class="butn_edit">OPEN CERTIFICATE</button></a>
+                   </p>
+                </div>
+            </div>
+
+         </div>
+
+         <!-- //////////////////////////////////////// -->
+
+<!--  campus sub class middle -->
+
+    </div>      
+  </div>
+
+<!-------------------------------------------------------- Professional certificaitons ended------------------------------------------------->
+
+        
+        
+          <!-- services starts -->
+
+          <div class="services">
+            <h1 class="heading2">ACADEMIC PROJECTS</h1>
+            <div class="container var_cont">
+               
+
+
+
+                <!-- ////////////////////////////projects start///////////////////////////////// -->
+                  <div class="child">
+                      <div class="child_img">
+                          <div class="temp">
+                              <img src="https://bikerestart.com/wp-content/uploads/2021/01/Engine-Fins.jpg" height="300px"; width="100%"/>
+                              <pre class="pr_head">
+ Design and Analysis of 
+ Engine Fins using Ansys
+ 
+                              </pre>
+                          </div>
+                         
+
+                      </div>
+                      <div class="child_det">
+                          <div class="justpad">
+                             <h1 class="webhead">B.TECH Mini Project</h1>
+                             <p class="desc">Engine fins are basically a safety assembly in engine cylinder to protect engine from over heating by providing large surface area with in limited space, This can be
+                                 done by providing fins to the engine cylinder which inreases the heat absorbing area and cool the engine repidly.In this project we did an analysis on an improved effective design for 
+                                 compatable cooling, we modified design usign CATIA v5 software and results are evaluated by conducting Thermal analysis on the fins and overal cooling efficiency of cooling improved 
+                                 with this design. I have also publishing a research paper on this article to improve the effectiveness of cooling engine with advanced design.
+                                 
+                            </p>
+                                  <div>
+                                      <h3>PROJECT LEADER : SRAVAN ARIMADLA</h1>
+                                      <h3>PROJECT GUIDE : G.SRINU, Asst.professor, MECH dept.</h1>
+                                  </div>
+                                  <div class="btn_group">
+                                    <a target="blank" style="text-decoration:none" href="https://docs.google.com/presentation/d/1oFyVf9pqBoUGUVldVe9vrWCxy_SWDaJv/edit?usp=sharing&ouid=100583631198939470551&rtpof=true&sd=true" <button class="pbt">PROJECT PPT</button> </a>
+                                    <a target="blank" style="text-decoration:none"  href="https://drive.google.com/file/d/1lQ0GejJLzk-i5_pP21vqJV7J7RQe4xzR/view?usp=sharing" <button class="pbt">PROJECT REPORT</button> </a>
+                                    <a target="blank" style="text-decoration:none" href="https://drive.google.com/file/d/14QBsttJsbtTSTrVSVECif3CIK9o5b3C4/view?usp=sharing" <button class="pbt">PROJECT VIDEO</button> </a>
+                                    
+                                  </div>
+                                  <div class="btn_group">
+                                    <a target="blank" style="text-decoration:none" href="https://github.com/A-Sravan/Personal_Webpage/blob/main/project1certificate.pdf" <button class="pbt">PROJECT CERTIFICATE</button> </a> 
+                                    <a target="blank" style="text-decoration:none" href="https://easychair.org/publications/preprint/jXN1" <button class="pbt">REASEARCH PAPER</button> </a>  
+                                    
+                                  </div>
+                                
+                               
+                          </div>
+                      </div>
+
+                   </div>
+              
+               
+              <!-- firdt sevice ended -->
+              <!-- ////////////////second project//////////////////////////////// -->
+
+              <div class="child">
+                <div class="child_img">
+                    <div class="temp">
+                        <img src="https://github.com/A-Sravan/Personal_Webpage/blob/main/project2img.jpg?raw=true" height="350px"; width="80%"/>
+                        <pre class="pr_head">
+HAND GESTURE CONTROLLED 
+PICK AND PLACE ROBOTIC ARM
+
+                        </pre>
+                    </div>
+                   
+
+                </div>
+                <div class="child_det">
+                    <div class="justpad">
+                       <h1 class="webhead">Diploma Team Project</h1>
+                       <p class="desc"> Pick and place robots are commonly used in modern manufacturing environments. Pick and place automation 
+                           speeds up the process of picking up parts or items and placing them in other locations. Automating this process helps to increase 
+                           production rates. Pick and place robots handle repetitive tasks while freeing up human workers to focus on more complex work.
+                           
+                           
+                      </p>
+                            <div>
+                                <h3>PROJECT LEADER : SRAVAN ARIMADLA</h1>
+                                
+                                <h3>PROJECT INCHARGE : P.SAMPATH KUMAR, M.TECH(MECH), Asst.professor, MECH dept</h1>
+                            </div>
+                            <div class="btn_group">
+                              <a target="blank" style="text-decoration:none" href="project2ppt.pdf" <button class="pbt">PROJECT PPT</button> </a>
+                              <a target="blank" style="text-decoration:none" href="https://docs.google.com/document/d/1qeW1_w0Po5iAYKDQGRO6RZyGv14Thn9q/edit?usp=sharing&ouid=100583631198939470551&rtpof=true&sd=true" <button class="pbt">PROJECT REPORT</button> </a>
+                              <a target="blank" style="text-decoration:none" href="https://drive.google.com/file/d/1AI_wIckbA5HG2bSYqP9cU8RR2Mq7hnRy/view?usp=sharing" <button class="pbt">PROJECT CERTIFICATE</button> </a>
+                              
+                            </div>
+                           
+                          
+                         
+                    </div>
+                </div>
+
+             </div>
+
+<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+
+             <div class="child">
+                <div class="child_img">
+                    <div class="temp">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLluWW5LoR7jH1bEiyMV7Ya0oCxAVtWpJVgw&usqp=CAU" height="300px"; width="100%"/>
+                        <pre class="pr_head">
+DESIGN AND STATIC ANALYSIS
+OF HEAVY VEHICLE CHASSIS
+USING ANSYS WORKBENCH
+
+                        </pre>
+                    </div>
+                   
+
+                </div>
+                <div class="child_det">
+                    <div class="justpad">
+                       <h1 class="webhead">B.TECH Major Project</h1>
+                       <p class="desc">This project is a related to research and development area, In this project we design different possible chassis frame which are suitable for heavy vehicles
+                           also conducted static and dynamic analysis on different chassis frames to calculate the stress strain and deformation of the chassis under various load conditions.
+                      </p>
+                            <div>
+                                <h3>PROJECT LEADER : Sravan Arimadla</h1>
+                                <h3>PROJECT INCHARGE :G.Srinu.</h1>
+                            </div>
+                            <div class="btn_group">
+                             
+                              <a target="blank" style="text-decoration:none" href="https://docs.google.com/presentation/d/1boySKFIpUKiA95UsYBu-L949M43l5TYk/edit?usp=sharing&ouid=100712803121111813876&rtpof=true&sd=true" <button class="pbt">PROJECT PPT</button> </a>
+                              
+                              <a target="blank" style="text-decoration:none" href="https://drive.google.com/file/d/149ICMp0ob_yKAQuJHqFPR0qQvtVx8eY5/view?usp=sharing" <button class="pbt">PROJECT REPORT</button> </a>
+
+                              <a target="blank" style="text-decoration:none" href="https://drive.google.com/file/d/1S4bNAwI7Vi1kWRd-wfifypNtVsdImziQ/view?usp=sharing" <button class="pbt">PROJECT VIDEO</button> </a> 
+                              
+                            </div>
+                            <div class="btn_group">
+                                <a target="blank" style="text-decoration:none" href="https://drive.google.com/file/d/1S93MF4sQ9I3kvCNR3EZE9dpLnmkMxdAU/view?usp=sharing" <button class="pbt">PROJECT CERTIFICATE</button> </a> 
+                                <a target="blank" style="text-decoration:none" href="https://www.irjet.net/archives/V9/i3/IRJET-V9I3222.pdf" <button class="pbt">REASEARCH PAPER</button> </a>  
+                                
+                              </div>
+                          
+                         
+                    </div>
+                </div>
+
+             </div>
+                 
+            
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+
+
+
+                 </div>
+                 </div>
+
+                   <!-- ////////////////////////////////////////////////////////////////////////////// -->
+
+ <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+
+
+ <div class="servicesof">
+    <h1 class="heading2">INTERNSHIPS </h1>
+    <div class="container var_of">
+       
+          <div class="children">
+              <div class="children_img   scp">
+                  <img src="https://allgovernmentjobs.in/public/uploads/org_logo/a6a672dedd91d0d670f6f6c5f6c6ed0e.jpg" width="230px"; height="250px";/>
+
+              </div>
+              <div class="children_det">
+                  <div class="just">
+                     <h1 class="web">Industrial Training at "SINGARENI COLLIERIES COMPANY LIMITED" </h1>
+                     <p class="descdren">I have completed a 6 months Industrial training at SCCL. At various areas like Open casts, Underground Mines, substations, Workshop, Coal handling plant</p>
+                     <p>
+                        <a target="blank" style="text-decoration:none" href="https://drive.google.com/file/d/1IpPejgilV3fdxzCwzn_-aSBfG6NMaoak/view?usp=sharing"  <button class="butn_edit">OPEN CERTIFICATE</button></a>
+                     </p>
+                  </div>
+              </div>
+
+           </div>
+      
+       
+      <!-- firdt sevice ended -->
+
+      <div class="children">
+        <div class="children_img">
+            <img src="https://www.newgenapps.com/wp-content/uploads/VR_live-1024x576.webp" width="300px"/>
+
+        </div>
+        <div class="children_det">
+            <div class="just">
+               <h1 class="web">Internship on CATIA V5 Software</h1>
+               <p class="descdren">It is an Internship of 6weeks in virtual mode on internshala platform,During this internship I aquired knowledge on how to design components
+                    in CATIA v5 software and as completion of internship I made a design of Single cylinder Engine   </p>
+               <p>
+                <a target="blank" style="text-decoration:none" href="https://trainings.internshala.com/s/v/81452/900bddf4"  <button class="butn_edit">OPEN CERTIFICATE</button></a>
+               </p>
+            </div>
+        </div>
+
+     </div>
+
+           
+       <!-- /////////////////////////////////////////////////////////////////////////// -->
+
+       
+       <div class="children">
+        <div class="children_img iot">
+            <!-- <img src="internship2img.gif" width="300px"; height="350px";/> -->
+
+        </div>
+        <div class="children_det">
+            <div class="just">
+               <h1 class="web">Internship on Fusion 360 Modelling Software</h1>
+               <p class="descdren">It is an Internship of 4weeks in virtual mode on Coursera platform, During this internship gained knowledge on how to design a complex machine parts
+                   and making animation to it. And as the completion of this internship I made a design on a robotic arm to enhance my skills to advanced level.
+
+                <a target="blank" style="text-decoration:none" href="https://coursera.org/share/27e54103f13e1c93840e4b0578bba9c1"  <button class="butn_edit">OPEN CERTIFICATE</button></a>
+               </p>
+            </div>
+        </div>
+
+     </div>
+  
+
+
+
+     
+
+           <!-- ////////////////////////////////////////////////////////////////////////////// -->
+
+           <div class="children">
+            <div class="children_img">
+                <img src="https://c8.alamy.com/comp/2DAF0XX/c-inscription-against-laptop-and-code-background-learn-c-programming-language-computer-courses-training-2DAF0XX.jpg" width="250px"; height="350px";/>
+
+            </div>
+            <div class="children_det">
+                <div class="just">
+                   <h1 class="web">Certified in C++ programming From University of California</h1>
+                   <p class="descdren">In this course i have learnt programming with C++ from basics to medium level.Learnt various concepts in programming such as
+                       Fundamentals,Conditonal Operators,conditional Statements,Loops,OOPs concepts, etc.. 
+                   
+                    </p>
+                   <p>
+                    <a target="blank" style="text-decoration:none" href="https://coursera.org/share/f332751e9a137ffa85bd872ac8008bca" <button class="butn_edit">OPEN CERTIFICATE</button></a>
+                   </p>
+                </div>
+            </div>
+
+         </div>
+
+         <!-- //////////////////////////////////////// -->
+
+<!--  campus sub class middle -->
+
+         <div class="children">                                   
+            <div class="children_img">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbOpEHDFN6spdWuPk8Ldu_fR-eeHNpfUVqQD4oIonqm_8qygFFXzVef4FxNBLgNT8Xk6M&usqp=CAU" width="300px"; height="250px";/>
+
+            </div>
+            <div class="children_det">
+                <div class="just">
+                   <h1 class="web">Certification of " PYTHON PROGRAMMING".</h1>
+                   <p class="descdren">Completed a certified course of python on hackerrank platform</p>
+                   <p>
+                    <a target="blank" style="text-decoration:none" href="https://www.hackerrank.com/certificates/66166953ee24" <button class="butn_edit">OPEN CERTIFICATE</button></a>
+                   </p>
+                </div>
+            </div>
+
+         </div>
+
+<!--           ////////////////////////////////////////////////////////////////////////////////////////////// -->
+                            <div class="children">                                   
+            <div class="children_img">
+                <img src="https://i.ytimg.com/vi/85tq0LjYATk/hqdefault.jpg"; height="250px";/>
+
+            </div>
+            <div class="children_det">
+                <div class="just">
+                   <h1 class="web">Certification of course" Web development".</h1>
+                   <p class="descdren">Completed a certified course on Web development from Internshala</p>
+                   <p>
+                    <a  target="blank" style="text-decoration:none" href="https://trainings.internshala.com/view_certificate/62E6F2A6-088A-34FC-185B-92EB602BDADF/45634A80-4CF2-BB4C-20B3-8332A0A048C8" <button class="butn_edit">OPEN CERTIFICATE</button></a>
+                   </p>
+                </div>
+            </div>
+
+         </div>
+
+
+    </div>      
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       
+
+         <!-- highlighted for page -->
+           <div class="highlight">
+               <div class="container high_container">
+                  
+
+                   <div class="high_ele">
+                      <div class="high_child">
+                       <h1 class="h1_css">4 </h1>
+                       <p class="high_desc">Projects completed</p>
+                      </div>
+                   </div>
+
+
+                   <div class="high_ele">
+                       <div class="high_child">
+                          <h1 class="h1_css">5</h1>
+                          <p class="high_desc">Internships completed</p>
+                       </div>
+                   </div>
+
+
+                  
+
+               </div>
+
+           </div>
+
+
+
+
+                   <!-- footer -->
+
+
+
+                   <div class="footer">
+                       <div class="container footer_container">
+
+                        <div class="footer_child child1"> 
+                            <h1>SRAVAN ARIMADLA's Academic profile</h1>
+
+                         </div>
+                        <div class="footer_child"> 
+                            <ul>
+                                <li class="first">Quick links</li>
+                                <li>Home</li>
+                                <li>Services</li>
+                                <li>portfolio</li>
+
+                                <li>about</li>
+                                <li>contact us</li>
+                            </ul>
+                        </div>
+                        <div class="footer_child"> 
+                            <ul>
+                                <li class="first">
+                                    contact us 
+                                </li>
+                                <li>
+                                    mail: arimadlasravan@gmail.com
+                                    <div>
+                                    <a target="blank" style="text-decoration:none" href="https://www.linkedin.com/in/sravan-arimadla/"  <button class="butn_edit">Linkedin</button></a>
+                             
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                       
+
+
+                        <div class="footer_child f4"> 
+                            <div class="container last_container">
+
+                                <div class="logoss si1"> </div> 
+                                <div class="logoss si2"> </div>
+                                <div class="logoss si3"> </div>
+                                <div class="logoss si4"> </div>
+
+                            </div>
+                         </div>
+
+                       </div>
+
+                   </div>
+
+
+
+                   <script>
+
+                       window.onscroll=function()
+                       {
+                           if(window.pageYOffset>300)
+                           {
+                               document.getElementById('header').style.backgroundColor="rgb(65, 58, 104)";
+
+                         
+                            }
+                            else{
+                                document.getElementById('header').style.backgroundColor="transparent";
+                            }
+                       }
+                   </script>
+
+    </body>
+</html>
